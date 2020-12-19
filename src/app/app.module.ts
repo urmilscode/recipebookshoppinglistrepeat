@@ -4,23 +4,22 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {HeaderComponent} from './header/header.component';
-import {RecipeComponent} from './header/recipe/recipe.component';
-import {RecipedetailComponent} from './header/recipe/recipe-detail/recipedetail.component';
-import {RecipelistComponent} from './header/recipe/recipe-list/recipelist.component';
-import {RecipeitemComponent} from './header/recipe/recipe-list/recipe-item/recipeitem.component';
-import {ShoppinglistComponent} from './header/shopping-list/shoppinglist.component';
-import {ShoppinglisteditComponent} from './header/shopping-list/shopping-list-edit/shoppinglistedit.component';
-
+import { RecipeComponent } from './recipe/recipe.component';
+import { RecipeDetailComponent } from './recipe/recipe-detail/recipe-detail.component';
+import { RecipeListComponent } from './recipe/recipe-list/recipe-list.component';
+import { RecipeItemComponent } from './recipe/recipe-list/recipe-item/recipe-item.component';
+import { ShoppingListComponent } from './shopping-list/shopping-list.component';
+import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-edit.component';
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     RecipeComponent,
-    RecipedetailComponent,
-    RecipelistComponent,
-    RecipeitemComponent,
-    ShoppinglistComponent,
-    ShoppinglisteditComponent
+    RecipeDetailComponent,
+    RecipeListComponent,
+    RecipeItemComponent,
+    ShoppingListComponent,
+    ShoppingEditComponent,
   ],
   imports: [
     BrowserModule,
